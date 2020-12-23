@@ -1494,3 +1494,9 @@ Caused by: java.lang.IllegalStateException: failed to obtain node locks, tried [
 	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:349) ~[elasticsearch-7.5.1.jar:7.5.1]
 	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:159) ~[elasticsearch-7.5.1.jar:7.5.1]
 	... 6 more
+[2020-12-23T18:36:51,045][WARN ][o.e.c.r.a.DiskThresholdMonitor] [shuta] high disk watermark [90%] exceeded on [VTHJYHrsQh6PYmk2YrLyLg][shuta][/Users/fujitashuta/Documents/南研究室/対話システム/line_bot_with_bert/elasticsearch/data/nodes/0] free: 12.5gb[5.3%], shards will be relocated away from this node
+[2020-12-23T18:36:51,045][INFO ][o.e.c.r.a.DiskThresholdMonitor] [shuta] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2020-12-23T18:37:21,054][WARN ][o.e.c.r.a.DiskThresholdMonitor] [shuta] high disk watermark [90%] exceeded on [VTHJYHrsQh6PYmk2YrLyLg][shuta][/Users/fujitashuta/Documents/南研究室/対話システム/line_bot_with_bert/elasticsearch/data/nodes/0] free: 12.5gb[5.3%], shards will be relocated away from this node
+[2020-12-23T18:37:51,062][WARN ][o.e.c.r.a.DiskThresholdMonitor] [shuta] high disk watermark [90%] exceeded on [VTHJYHrsQh6PYmk2YrLyLg][shuta][/Users/fujitashuta/Documents/南研究室/対話システム/line_bot_with_bert/elasticsearch/data/nodes/0] free: 12.5gb[5.3%], shards will be relocated away from this node
+[2020-12-23T18:37:51,069][INFO ][o.e.c.r.a.DiskThresholdMonitor] [shuta] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2020-12-23T18:38:21,078][WARN ][o.e.c.r.a.DiskThresholdMonitor] [shuta] high disk watermark [90%] exceeded on [VTHJYHrsQh6PYmk2YrLyLg][shuta][/Users/fujitashuta/Documents/南研究室/対話システム/line_bot_with_bert/elasticsearch/data/nodes/0] free: 12.5gb[5.3%], shards will be relocated away from this node
