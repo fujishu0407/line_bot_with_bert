@@ -2,9 +2,10 @@
 #"3b6a26385dfd37f84997ed2394f6def8"
 from flask import Flask, request, abort
 import os
+import subprocess
 from linebot import LineBotApi, WebhookHandler
 from linebot.exceptions import InvalidSignatureError
-from linebot.models import MessageEvent, TextMessage, TextSendMessage,
+from linebot.models import MessageEvent, TextMessage, TextSendMessage
 from bert_ebdm_system import BertEbdmSystem
 
 
@@ -45,6 +46,7 @@ def handle_message(event):
 
 if __name__ == "__main__":
 #    app.run()
+    subprocess.call(["elasticsearch/bin/elasticsearch", "-d", "-p", "pid"])
     port = int(os.getenv("PORT", 5000))
     system = BertEbdmSystem()
     app.run(host="0.0.0.0", port=port)

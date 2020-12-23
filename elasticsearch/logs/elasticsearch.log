@@ -1263,3 +1263,108 @@
 [2020-12-23T17:34:34,920][WARN ][o.e.c.r.a.DiskThresholdMonitor] [shuta] high disk watermark [90%] exceeded on [VTHJYHrsQh6PYmk2YrLyLg][shuta][/Users/fujitashuta/Documents/南研究室/対話システム/bert/elasticsearch-7.5.1/data/nodes/0] free: 11.9gb[5.1%], shards will be relocated away from this node
 [2020-12-23T17:34:34,923][INFO ][o.e.c.r.a.DiskThresholdMonitor] [shuta] rerouting shards: [high disk watermark exceeded on one or more nodes]
 [2020-12-23T17:35:04,940][WARN ][o.e.c.r.a.DiskThresholdMonitor] [shuta] high disk watermark [90%] exceeded on [VTHJYHrsQh6PYmk2YrLyLg][shuta][/Users/fujitashuta/Documents/南研究室/対話システム/bert/elasticsearch-7.5.1/data/nodes/0] free: 11.9gb[5.1%], shards will be relocated away from this node
+[2020-12-23T17:57:38,335][INFO ][o.e.e.NodeEnvironment    ] [shuta] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [12.2gb], net total_space [233.5gb], types [apfs]
+[2020-12-23T17:57:38,348][INFO ][o.e.e.NodeEnvironment    ] [shuta] heap size [990.7mb], compressed ordinary object pointers [true]
+[2020-12-23T17:57:38,372][INFO ][o.e.n.Node               ] [shuta] node name [shuta], node ID [VTHJYHrsQh6PYmk2YrLyLg], cluster name [elasticsearch]
+[2020-12-23T17:57:38,383][INFO ][o.e.n.Node               ] [shuta] version[7.5.1], pid[92117], build[default/tar/3ae9ac9a93c95bd0cdc054951cf95d88e1e18d96/2019-12-16T22:57:37.835892Z], OS[Mac OS X/10.15.7/x86_64], JVM[AdoptOpenJDK/OpenJDK 64-Bit Server VM/13.0.1/13.0.1+9]
+[2020-12-23T17:57:38,385][INFO ][o.e.n.Node               ] [shuta] JVM home [/Users/fujitashuta/Documents/南研究室/対話システム/line_bot_with_bert/elasticsearch/jdk.app/Contents/Home]
+[2020-12-23T17:57:38,387][INFO ][o.e.n.Node               ] [shuta] JVM arguments [-Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dio.netty.allocator.numDirectArenas=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.locale.providers=COMPAT, -Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Djava.io.tmpdir=/var/folders/0h/9k8nlx1x0zxgbdndscf379jw0000gn/T/elasticsearch-15494454294644887030, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -Xlog:gc*,gc+age=trace,safepoint:file=logs/gc.log:utctime,pid,tags:filecount=32,filesize=64m, -XX:MaxDirectMemorySize=536870912, -Des.path.home=/Users/fujitashuta/Documents/南研究室/対話システム/line_bot_with_bert/elasticsearch, -Des.path.conf=/Users/fujitashuta/Documents/南研究室/対話システム/line_bot_with_bert/elasticsearch/config, -Des.distribution.flavor=default, -Des.distribution.type=tar, -Des.bundled_jdk=true]
+[2020-12-23T17:57:49,011][INFO ][o.e.p.PluginsService     ] [shuta] loaded module [aggs-matrix-stats]
+[2020-12-23T17:57:49,017][INFO ][o.e.p.PluginsService     ] [shuta] loaded module [analysis-common]
+[2020-12-23T17:57:49,018][INFO ][o.e.p.PluginsService     ] [shuta] loaded module [flattened]
+[2020-12-23T17:57:49,046][INFO ][o.e.p.PluginsService     ] [shuta] loaded module [frozen-indices]
+[2020-12-23T17:57:49,046][INFO ][o.e.p.PluginsService     ] [shuta] loaded module [ingest-common]
+[2020-12-23T17:57:49,047][INFO ][o.e.p.PluginsService     ] [shuta] loaded module [ingest-geoip]
+[2020-12-23T17:57:49,047][INFO ][o.e.p.PluginsService     ] [shuta] loaded module [ingest-user-agent]
+[2020-12-23T17:57:49,047][INFO ][o.e.p.PluginsService     ] [shuta] loaded module [lang-expression]
+[2020-12-23T17:57:49,048][INFO ][o.e.p.PluginsService     ] [shuta] loaded module [lang-mustache]
+[2020-12-23T17:57:49,048][INFO ][o.e.p.PluginsService     ] [shuta] loaded module [lang-painless]
+[2020-12-23T17:57:49,049][INFO ][o.e.p.PluginsService     ] [shuta] loaded module [mapper-extras]
+[2020-12-23T17:57:49,049][INFO ][o.e.p.PluginsService     ] [shuta] loaded module [parent-join]
+[2020-12-23T17:57:49,049][INFO ][o.e.p.PluginsService     ] [shuta] loaded module [percolator]
+[2020-12-23T17:57:49,050][INFO ][o.e.p.PluginsService     ] [shuta] loaded module [rank-eval]
+[2020-12-23T17:57:49,050][INFO ][o.e.p.PluginsService     ] [shuta] loaded module [reindex]
+[2020-12-23T17:57:49,051][INFO ][o.e.p.PluginsService     ] [shuta] loaded module [repository-url]
+[2020-12-23T17:57:49,053][INFO ][o.e.p.PluginsService     ] [shuta] loaded module [search-business-rules]
+[2020-12-23T17:57:49,057][INFO ][o.e.p.PluginsService     ] [shuta] loaded module [spatial]
+[2020-12-23T17:57:49,059][INFO ][o.e.p.PluginsService     ] [shuta] loaded module [transform]
+[2020-12-23T17:57:49,060][INFO ][o.e.p.PluginsService     ] [shuta] loaded module [transport-netty4]
+[2020-12-23T17:57:49,060][INFO ][o.e.p.PluginsService     ] [shuta] loaded module [vectors]
+[2020-12-23T17:57:49,060][INFO ][o.e.p.PluginsService     ] [shuta] loaded module [x-pack-analytics]
+[2020-12-23T17:57:49,061][INFO ][o.e.p.PluginsService     ] [shuta] loaded module [x-pack-ccr]
+[2020-12-23T17:57:49,061][INFO ][o.e.p.PluginsService     ] [shuta] loaded module [x-pack-core]
+[2020-12-23T17:57:49,062][INFO ][o.e.p.PluginsService     ] [shuta] loaded module [x-pack-deprecation]
+[2020-12-23T17:57:49,062][INFO ][o.e.p.PluginsService     ] [shuta] loaded module [x-pack-enrich]
+[2020-12-23T17:57:49,063][INFO ][o.e.p.PluginsService     ] [shuta] loaded module [x-pack-graph]
+[2020-12-23T17:57:49,063][INFO ][o.e.p.PluginsService     ] [shuta] loaded module [x-pack-ilm]
+[2020-12-23T17:57:49,064][INFO ][o.e.p.PluginsService     ] [shuta] loaded module [x-pack-logstash]
+[2020-12-23T17:57:49,064][INFO ][o.e.p.PluginsService     ] [shuta] loaded module [x-pack-ml]
+[2020-12-23T17:57:49,065][INFO ][o.e.p.PluginsService     ] [shuta] loaded module [x-pack-monitoring]
+[2020-12-23T17:57:49,065][INFO ][o.e.p.PluginsService     ] [shuta] loaded module [x-pack-rollup]
+[2020-12-23T17:57:49,066][INFO ][o.e.p.PluginsService     ] [shuta] loaded module [x-pack-security]
+[2020-12-23T17:57:49,067][INFO ][o.e.p.PluginsService     ] [shuta] loaded module [x-pack-sql]
+[2020-12-23T17:57:49,067][INFO ][o.e.p.PluginsService     ] [shuta] loaded module [x-pack-voting-only-node]
+[2020-12-23T17:57:49,068][INFO ][o.e.p.PluginsService     ] [shuta] loaded module [x-pack-watcher]
+[2020-12-23T17:57:49,068][INFO ][o.e.p.PluginsService     ] [shuta] loaded plugin [analysis-kuromoji]
+[2020-12-23T17:58:07,332][INFO ][o.e.x.s.a.s.FileRolesStore] [shuta] parsed [0] roles from file [/Users/fujitashuta/Documents/南研究室/対話システム/line_bot_with_bert/elasticsearch/config/roles.yml]
+[2020-12-23T17:58:09,078][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [shuta] [controller/92139] [Main.cc@110] controller (64 bit): Version 7.5.1 (Build ae3c3c51b849be) Copyright (c) 2019 Elasticsearch BV
+[2020-12-23T17:58:11,366][DEBUG][o.e.a.ActionModule       ] [shuta] Using REST wrapper from plugin org.elasticsearch.xpack.security.Security
+[2020-12-23T17:58:12,126][INFO ][o.e.d.DiscoveryModule    ] [shuta] using discovery type [zen] and seed hosts providers [settings]
+[2020-12-23T17:58:17,159][INFO ][o.e.n.Node               ] [shuta] initialized
+[2020-12-23T17:58:17,159][INFO ][o.e.n.Node               ] [shuta] starting ...
+[2020-12-23T17:58:17,874][INFO ][o.e.t.TransportService   ] [shuta] publish_address {127.0.0.1:9302}, bound_addresses {[::1]:9302}, {127.0.0.1:9302}
+[2020-12-23T17:58:18,905][WARN ][o.e.b.BootstrapChecks    ] [shuta] the default discovery settings are unsuitable for production use; at least one of [discovery.seed_hosts, discovery.seed_providers, cluster.initial_master_nodes] must be configured
+[2020-12-23T17:58:18,909][INFO ][o.e.c.c.Coordinator      ] [shuta] cluster UUID [5AVATnmxQUuk8iQeI8fwNg]
+[2020-12-23T17:58:18,932][INFO ][o.e.c.c.ClusterBootstrapService] [shuta] no discovery configuration found, will perform best-effort cluster bootstrapping after [3s] unless existing master is discovered
+[2020-12-23T17:58:19,365][INFO ][o.e.c.s.MasterService    ] [shuta] elected-as-master ([1] nodes joined)[{shuta}{VTHJYHrsQh6PYmk2YrLyLg}{onljxN7uQp254zP8Lf6xHA}{127.0.0.1}{127.0.0.1:9302}{dilm}{ml.machine_memory=8589934592, xpack.installed=true, ml.max_open_jobs=20} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 3, version: 25, delta: master node changed {previous [], current [{shuta}{VTHJYHrsQh6PYmk2YrLyLg}{onljxN7uQp254zP8Lf6xHA}{127.0.0.1}{127.0.0.1:9302}{dilm}{ml.machine_memory=8589934592, xpack.installed=true, ml.max_open_jobs=20}]}
+[2020-12-23T17:58:19,890][INFO ][o.e.c.s.ClusterApplierService] [shuta] master node changed {previous [], current [{shuta}{VTHJYHrsQh6PYmk2YrLyLg}{onljxN7uQp254zP8Lf6xHA}{127.0.0.1}{127.0.0.1:9302}{dilm}{ml.machine_memory=8589934592, xpack.installed=true, ml.max_open_jobs=20}]}, term: 3, version: 25, reason: Publication{term=3, version=25}
+[2020-12-23T17:58:20,259][INFO ][o.e.h.AbstractHttpServerTransport] [shuta] publish_address {127.0.0.1:9202}, bound_addresses {[::1]:9202}, {127.0.0.1:9202}
+[2020-12-23T17:58:20,261][INFO ][o.e.n.Node               ] [shuta] started
+[2020-12-23T17:58:21,302][INFO ][o.e.l.LicenseService     ] [shuta] license [3b226dd1-ca70-4d37-8a5e-1ad08b27d18c] mode [basic] - valid
+[2020-12-23T17:58:21,304][INFO ][o.e.x.s.s.SecurityStatusChangeListener] [shuta] Active license is now [BASIC]; Security is disabled
+[2020-12-23T17:58:21,466][INFO ][o.e.g.GatewayService     ] [shuta] recovered [1] indices into cluster_state
+[2020-12-23T17:58:24,239][INFO ][o.e.c.r.a.AllocationService] [shuta] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[dialogue_pair][0]]]).
+[2020-12-23T17:58:50,078][WARN ][o.e.c.r.a.DiskThresholdMonitor] [shuta] flood stage disk watermark [95%] exceeded on [VTHJYHrsQh6PYmk2YrLyLg][shuta][/Users/fujitashuta/Documents/南研究室/対話システム/line_bot_with_bert/elasticsearch/data/nodes/0] free: 11.6gb[4.9%], all indices on this node will be marked read-only
+[2020-12-23T17:59:20,109][WARN ][o.e.c.r.a.DiskThresholdMonitor] [shuta] flood stage disk watermark [95%] exceeded on [VTHJYHrsQh6PYmk2YrLyLg][shuta][/Users/fujitashuta/Documents/南研究室/対話システム/line_bot_with_bert/elasticsearch/data/nodes/0] free: 11.5gb[4.9%], all indices on this node will be marked read-only
+[2020-12-23T17:59:50,124][WARN ][o.e.c.r.a.DiskThresholdMonitor] [shuta] high disk watermark [90%] exceeded on [VTHJYHrsQh6PYmk2YrLyLg][shuta][/Users/fujitashuta/Documents/南研究室/対話システム/line_bot_with_bert/elasticsearch/data/nodes/0] free: 12.5gb[5.3%], shards will be relocated away from this node
+[2020-12-23T17:59:50,131][INFO ][o.e.c.r.a.DiskThresholdMonitor] [shuta] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2020-12-23T18:00:20,143][WARN ][o.e.c.r.a.DiskThresholdMonitor] [shuta] high disk watermark [90%] exceeded on [VTHJYHrsQh6PYmk2YrLyLg][shuta][/Users/fujitashuta/Documents/南研究室/対話システム/line_bot_with_bert/elasticsearch/data/nodes/0] free: 12.5gb[5.3%], shards will be relocated away from this node
+[2020-12-23T18:00:50,175][WARN ][o.e.c.r.a.DiskThresholdMonitor] [shuta] high disk watermark [90%] exceeded on [VTHJYHrsQh6PYmk2YrLyLg][shuta][/Users/fujitashuta/Documents/南研究室/対話システム/line_bot_with_bert/elasticsearch/data/nodes/0] free: 12.5gb[5.3%], shards will be relocated away from this node
+[2020-12-23T18:01:20,189][WARN ][o.e.c.r.a.DiskThresholdMonitor] [shuta] high disk watermark [90%] exceeded on [VTHJYHrsQh6PYmk2YrLyLg][shuta][/Users/fujitashuta/Documents/南研究室/対話システム/line_bot_with_bert/elasticsearch/data/nodes/0] free: 12.4gb[5.3%], shards will be relocated away from this node
+[2020-12-23T18:01:20,192][INFO ][o.e.c.r.a.DiskThresholdMonitor] [shuta] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2020-12-23T18:01:50,219][WARN ][o.e.c.r.a.DiskThresholdMonitor] [shuta] flood stage disk watermark [95%] exceeded on [VTHJYHrsQh6PYmk2YrLyLg][shuta][/Users/fujitashuta/Documents/南研究室/対話システム/line_bot_with_bert/elasticsearch/data/nodes/0] free: 11.5gb[4.9%], all indices on this node will be marked read-only
+[2020-12-23T18:02:01,884][ERROR][o.e.b.Bootstrap          ] [shuta] Exception
+java.lang.IllegalStateException: failed to obtain node locks, tried [[/Users/fujitashuta/Documents/南研究室/対話システム/line_bot_with_bert/elasticsearch/data]] with lock id [0]; maybe these locations are not writable or multiple nodes were started without increasing [node.max_local_storage_nodes] (was [1])?
+	at org.elasticsearch.env.NodeEnvironment.<init>(NodeEnvironment.java:299) ~[elasticsearch-7.5.1.jar:7.5.1]
+	at org.elasticsearch.node.Node.<init>(Node.java:273) ~[elasticsearch-7.5.1.jar:7.5.1]
+	at org.elasticsearch.node.Node.<init>(Node.java:253) ~[elasticsearch-7.5.1.jar:7.5.1]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:221) ~[elasticsearch-7.5.1.jar:7.5.1]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:221) ~[elasticsearch-7.5.1.jar:7.5.1]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:349) [elasticsearch-7.5.1.jar:7.5.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:159) [elasticsearch-7.5.1.jar:7.5.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:150) [elasticsearch-7.5.1.jar:7.5.1]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) [elasticsearch-7.5.1.jar:7.5.1]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:125) [elasticsearch-cli-7.5.1.jar:7.5.1]
+	at org.elasticsearch.cli.Command.main(Command.java:90) [elasticsearch-cli-7.5.1.jar:7.5.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:115) [elasticsearch-7.5.1.jar:7.5.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) [elasticsearch-7.5.1.jar:7.5.1]
+[2020-12-23T18:02:02,037][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [shuta] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalStateException: failed to obtain node locks, tried [[/Users/fujitashuta/Documents/南研究室/対話システム/line_bot_with_bert/elasticsearch/data]] with lock id [0]; maybe these locations are not writable or multiple nodes were started without increasing [node.max_local_storage_nodes] (was [1])?
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:163) ~[elasticsearch-7.5.1.jar:7.5.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:150) ~[elasticsearch-7.5.1.jar:7.5.1]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[elasticsearch-7.5.1.jar:7.5.1]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:125) ~[elasticsearch-cli-7.5.1.jar:7.5.1]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[elasticsearch-cli-7.5.1.jar:7.5.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:115) ~[elasticsearch-7.5.1.jar:7.5.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) ~[elasticsearch-7.5.1.jar:7.5.1]
+Caused by: java.lang.IllegalStateException: failed to obtain node locks, tried [[/Users/fujitashuta/Documents/南研究室/対話システム/line_bot_with_bert/elasticsearch/data]] with lock id [0]; maybe these locations are not writable or multiple nodes were started without increasing [node.max_local_storage_nodes] (was [1])?
+	at org.elasticsearch.env.NodeEnvironment.<init>(NodeEnvironment.java:299) ~[elasticsearch-7.5.1.jar:7.5.1]
+	at org.elasticsearch.node.Node.<init>(Node.java:273) ~[elasticsearch-7.5.1.jar:7.5.1]
+	at org.elasticsearch.node.Node.<init>(Node.java:253) ~[elasticsearch-7.5.1.jar:7.5.1]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:221) ~[elasticsearch-7.5.1.jar:7.5.1]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:221) ~[elasticsearch-7.5.1.jar:7.5.1]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:349) ~[elasticsearch-7.5.1.jar:7.5.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:159) ~[elasticsearch-7.5.1.jar:7.5.1]
+	... 6 more
+[2020-12-23T18:02:20,280][WARN ][o.e.c.r.a.DiskThresholdMonitor] [shuta] flood stage disk watermark [95%] exceeded on [VTHJYHrsQh6PYmk2YrLyLg][shuta][/Users/fujitashuta/Documents/南研究室/対話システム/line_bot_with_bert/elasticsearch/data/nodes/0] free: 11.5gb[4.9%], all indices on this node will be marked read-only
+[2020-12-23T18:02:50,346][WARN ][o.e.c.r.a.DiskThresholdMonitor] [shuta] flood stage disk watermark [95%] exceeded on [VTHJYHrsQh6PYmk2YrLyLg][shuta][/Users/fujitashuta/Documents/南研究室/対話システム/line_bot_with_bert/elasticsearch/data/nodes/0] free: 11.2gb[4.8%], all indices on this node will be marked read-only
