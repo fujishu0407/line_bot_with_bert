@@ -1444,3 +1444,53 @@ Caused by: java.lang.IllegalStateException: failed to obtain node locks, tried [
 [2020-12-23T18:29:20,890][INFO ][o.e.c.r.a.DiskThresholdMonitor] [shuta] rerouting shards: [high disk watermark exceeded on one or more nodes]
 [2020-12-23T18:29:50,894][WARN ][o.e.c.r.a.DiskThresholdMonitor] [shuta] high disk watermark [90%] exceeded on [VTHJYHrsQh6PYmk2YrLyLg][shuta][/Users/fujitashuta/Documents/南研究室/対話システム/line_bot_with_bert/elasticsearch/data/nodes/0] free: 12.5gb[5.3%], shards will be relocated away from this node
 [2020-12-23T18:30:20,903][WARN ][o.e.c.r.a.DiskThresholdMonitor] [shuta] high disk watermark [90%] exceeded on [VTHJYHrsQh6PYmk2YrLyLg][shuta][/Users/fujitashuta/Documents/南研究室/対話システム/line_bot_with_bert/elasticsearch/data/nodes/0] free: 12.5gb[5.3%], shards will be relocated away from this node
+[2020-12-23T18:30:50,908][WARN ][o.e.c.r.a.DiskThresholdMonitor] [shuta] high disk watermark [90%] exceeded on [VTHJYHrsQh6PYmk2YrLyLg][shuta][/Users/fujitashuta/Documents/南研究室/対話システム/line_bot_with_bert/elasticsearch/data/nodes/0] free: 12.5gb[5.3%], shards will be relocated away from this node
+[2020-12-23T18:30:50,910][INFO ][o.e.c.r.a.DiskThresholdMonitor] [shuta] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2020-12-23T18:31:20,914][WARN ][o.e.c.r.a.DiskThresholdMonitor] [shuta] high disk watermark [90%] exceeded on [VTHJYHrsQh6PYmk2YrLyLg][shuta][/Users/fujitashuta/Documents/南研究室/対話システム/line_bot_with_bert/elasticsearch/data/nodes/0] free: 12.5gb[5.3%], shards will be relocated away from this node
+[2020-12-23T18:31:50,922][WARN ][o.e.c.r.a.DiskThresholdMonitor] [shuta] high disk watermark [90%] exceeded on [VTHJYHrsQh6PYmk2YrLyLg][shuta][/Users/fujitashuta/Documents/南研究室/対話システム/line_bot_with_bert/elasticsearch/data/nodes/0] free: 12.5gb[5.3%], shards will be relocated away from this node
+[2020-12-23T18:31:50,924][INFO ][o.e.c.r.a.DiskThresholdMonitor] [shuta] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2020-12-23T18:32:20,930][WARN ][o.e.c.r.a.DiskThresholdMonitor] [shuta] high disk watermark [90%] exceeded on [VTHJYHrsQh6PYmk2YrLyLg][shuta][/Users/fujitashuta/Documents/南研究室/対話システム/line_bot_with_bert/elasticsearch/data/nodes/0] free: 12.5gb[5.3%], shards will be relocated away from this node
+[2020-12-23T18:32:50,938][WARN ][o.e.c.r.a.DiskThresholdMonitor] [shuta] high disk watermark [90%] exceeded on [VTHJYHrsQh6PYmk2YrLyLg][shuta][/Users/fujitashuta/Documents/南研究室/対話システム/line_bot_with_bert/elasticsearch/data/nodes/0] free: 12.5gb[5.3%], shards will be relocated away from this node
+[2020-12-23T18:32:50,939][INFO ][o.e.c.r.a.DiskThresholdMonitor] [shuta] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2020-12-23T18:33:20,945][WARN ][o.e.c.r.a.DiskThresholdMonitor] [shuta] high disk watermark [90%] exceeded on [VTHJYHrsQh6PYmk2YrLyLg][shuta][/Users/fujitashuta/Documents/南研究室/対話システム/line_bot_with_bert/elasticsearch/data/nodes/0] free: 12.5gb[5.3%], shards will be relocated away from this node
+[2020-12-23T18:33:50,962][WARN ][o.e.c.r.a.DiskThresholdMonitor] [shuta] high disk watermark [90%] exceeded on [VTHJYHrsQh6PYmk2YrLyLg][shuta][/Users/fujitashuta/Documents/南研究室/対話システム/line_bot_with_bert/elasticsearch/data/nodes/0] free: 12.5gb[5.3%], shards will be relocated away from this node
+[2020-12-23T18:34:20,970][WARN ][o.e.c.r.a.DiskThresholdMonitor] [shuta] high disk watermark [90%] exceeded on [VTHJYHrsQh6PYmk2YrLyLg][shuta][/Users/fujitashuta/Documents/南研究室/対話システム/line_bot_with_bert/elasticsearch/data/nodes/0] free: 12.5gb[5.3%], shards will be relocated away from this node
+[2020-12-23T18:34:20,971][INFO ][o.e.c.r.a.DiskThresholdMonitor] [shuta] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2020-12-23T18:34:50,977][WARN ][o.e.c.r.a.DiskThresholdMonitor] [shuta] high disk watermark [90%] exceeded on [VTHJYHrsQh6PYmk2YrLyLg][shuta][/Users/fujitashuta/Documents/南研究室/対話システム/line_bot_with_bert/elasticsearch/data/nodes/0] free: 12.5gb[5.3%], shards will be relocated away from this node
+[2020-12-23T18:35:20,987][WARN ][o.e.c.r.a.DiskThresholdMonitor] [shuta] high disk watermark [90%] exceeded on [VTHJYHrsQh6PYmk2YrLyLg][shuta][/Users/fujitashuta/Documents/南研究室/対話システム/line_bot_with_bert/elasticsearch/data/nodes/0] free: 12.5gb[5.3%], shards will be relocated away from this node
+[2020-12-23T18:35:20,988][INFO ][o.e.c.r.a.DiskThresholdMonitor] [shuta] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2020-12-23T18:35:50,999][WARN ][o.e.c.r.a.DiskThresholdMonitor] [shuta] high disk watermark [90%] exceeded on [VTHJYHrsQh6PYmk2YrLyLg][shuta][/Users/fujitashuta/Documents/南研究室/対話システム/line_bot_with_bert/elasticsearch/data/nodes/0] free: 12.5gb[5.3%], shards will be relocated away from this node
+[2020-12-23T18:36:21,026][WARN ][o.e.c.r.a.DiskThresholdMonitor] [shuta] high disk watermark [90%] exceeded on [VTHJYHrsQh6PYmk2YrLyLg][shuta][/Users/fujitashuta/Documents/南研究室/対話システム/line_bot_with_bert/elasticsearch/data/nodes/0] free: 12.5gb[5.3%], shards will be relocated away from this node
+[2020-12-23T18:36:28,044][ERROR][o.e.b.Bootstrap          ] [shuta] Exception
+java.lang.IllegalStateException: failed to obtain node locks, tried [[/Users/fujitashuta/Documents/南研究室/対話システム/line_bot_with_bert/elasticsearch/data]] with lock id [0]; maybe these locations are not writable or multiple nodes were started without increasing [node.max_local_storage_nodes] (was [1])?
+	at org.elasticsearch.env.NodeEnvironment.<init>(NodeEnvironment.java:299) ~[elasticsearch-7.5.1.jar:7.5.1]
+	at org.elasticsearch.node.Node.<init>(Node.java:273) ~[elasticsearch-7.5.1.jar:7.5.1]
+	at org.elasticsearch.node.Node.<init>(Node.java:253) ~[elasticsearch-7.5.1.jar:7.5.1]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:221) ~[elasticsearch-7.5.1.jar:7.5.1]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:221) ~[elasticsearch-7.5.1.jar:7.5.1]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:349) [elasticsearch-7.5.1.jar:7.5.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:159) [elasticsearch-7.5.1.jar:7.5.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:150) [elasticsearch-7.5.1.jar:7.5.1]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) [elasticsearch-7.5.1.jar:7.5.1]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:125) [elasticsearch-cli-7.5.1.jar:7.5.1]
+	at org.elasticsearch.cli.Command.main(Command.java:90) [elasticsearch-cli-7.5.1.jar:7.5.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:115) [elasticsearch-7.5.1.jar:7.5.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) [elasticsearch-7.5.1.jar:7.5.1]
+[2020-12-23T18:36:28,080][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [shuta] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalStateException: failed to obtain node locks, tried [[/Users/fujitashuta/Documents/南研究室/対話システム/line_bot_with_bert/elasticsearch/data]] with lock id [0]; maybe these locations are not writable or multiple nodes were started without increasing [node.max_local_storage_nodes] (was [1])?
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:163) ~[elasticsearch-7.5.1.jar:7.5.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:150) ~[elasticsearch-7.5.1.jar:7.5.1]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[elasticsearch-7.5.1.jar:7.5.1]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:125) ~[elasticsearch-cli-7.5.1.jar:7.5.1]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[elasticsearch-cli-7.5.1.jar:7.5.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:115) ~[elasticsearch-7.5.1.jar:7.5.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) ~[elasticsearch-7.5.1.jar:7.5.1]
+Caused by: java.lang.IllegalStateException: failed to obtain node locks, tried [[/Users/fujitashuta/Documents/南研究室/対話システム/line_bot_with_bert/elasticsearch/data]] with lock id [0]; maybe these locations are not writable or multiple nodes were started without increasing [node.max_local_storage_nodes] (was [1])?
+	at org.elasticsearch.env.NodeEnvironment.<init>(NodeEnvironment.java:299) ~[elasticsearch-7.5.1.jar:7.5.1]
+	at org.elasticsearch.node.Node.<init>(Node.java:273) ~[elasticsearch-7.5.1.jar:7.5.1]
+	at org.elasticsearch.node.Node.<init>(Node.java:253) ~[elasticsearch-7.5.1.jar:7.5.1]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:221) ~[elasticsearch-7.5.1.jar:7.5.1]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:221) ~[elasticsearch-7.5.1.jar:7.5.1]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:349) ~[elasticsearch-7.5.1.jar:7.5.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:159) ~[elasticsearch-7.5.1.jar:7.5.1]
+	... 6 more
