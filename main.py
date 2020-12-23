@@ -1,17 +1,12 @@
 #"NcSKlH2/i1Gvv2eW38+VMRSSPuKgxY+vMtqUWcU5GzmpwWJYv6QiIuI+LtWLV2eIaSLiAv/egHlpnVM0ha3cDDUTHZeIqhzhqZiz8ve8FDlFYGB956+E9ZKUwdvXYc9oRJnKVfAF4cfxPHiLTl/+jwdB04t89/1O/w1cDnyilFU="
 #"3b6a26385dfd37f84997ed2394f6def8"
 from flask import Flask, request, abort
-
-from linebot import (
-    LineBotApi, WebhookHandler
-)
-from linebot.exceptions import (
-    InvalidSignatureError
-)
-from linebot.models import (
-    MessageEvent, TextMessage, TextSendMessage,
-)
 import os
+from linebot import LineBotApi, WebhookHandler
+from linebot.exceptions import InvalidSignatureError
+from linebot.models import MessageEvent, TextMessage, TextSendMessage,
+from bert_ebdm_system import BertEbdmSystem
+
 
 app = Flask(__name__)
 
@@ -50,4 +45,5 @@ def handle_message(event):
 if __name__ == "__main__":
 #    app.run()
     port = int(os.getenv("PORT", 5000))
+    system = BertEbdmSystem()
     app.run(host="0.0.0.0", port=port)
