@@ -1,0 +1,1 @@
+{"type": "deprecation", "timestamp": "2020-12-19T20:51:32,566+09:00", "level": "WARN", "component": "o.e.d.a.b.BulkRequestParser", "cluster.name": "elasticsearch", "node.name": "shuta", "message": "[types removal] Specifying types in bulk requests is deprecated.", "cluster.uuid": "5AVATnmxQUuk8iQeI8fwNg", "node.id": "VTHJYHrsQh6PYmk2YrLyLg"  }

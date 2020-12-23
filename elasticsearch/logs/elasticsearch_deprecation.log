@@ -1,0 +1,1 @@
+[2020-12-19T20:51:32,566][WARN ][o.e.d.a.b.BulkRequestParser] [shuta] [types removal] Specifying types in bulk requests is deprecated.
