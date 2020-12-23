@@ -1,6 +1,7 @@
 #https://colab.research.google.com/github/dsbook/dsbook/blob/master/bert_example_based_finetuning.ipynb#scrollTo=Tj2ATbHmt9Wp
 from transformers.modeling_bert import BertForSequenceClassification
 from transformers.tokenization_bert import BertTokenizer
+import keras
 import torch
 import torch.nn.functional as F
 
