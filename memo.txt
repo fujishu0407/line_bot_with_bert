@@ -1,0 +1,2 @@
+git lfs track bert_evaluator.bin
+git add .gitattributes
