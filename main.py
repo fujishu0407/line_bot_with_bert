@@ -47,6 +47,7 @@ def handle_message(event):
 if __name__ == "__main__":
 #    app.run()
     subprocess.call(["elasticsearch/bin/elasticsearch", "-d", "-p", "pid"])
-    port = int(os.getenv("PORT", 5000))
+    port = int(os.environ.get("PORT", 5000))
+    print(port)
     system = BertEbdmSystem()
     app.run(host="0.0.0.0", port=port)
