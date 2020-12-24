@@ -8,7 +8,7 @@ class BertEbdmSystem:
         from elasticsearch import Elasticsearch
         self.es = Elasticsearch()
         self.evaluator = BertEvaluator()
-
+/app/elasticsearch/jdk/bin/java
     def initial_message(self, input):
         return {'utt': 'こんにちは。対話を始めましょう。', 'end':False}
     
