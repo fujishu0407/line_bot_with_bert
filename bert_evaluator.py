@@ -12,7 +12,7 @@ class BertEvaluator:
         # self.model = BertForSequenceClassification.from_pretrained("bert-base-multilingual-cased", num_labels=2)
         #self.model.load_state_dict(torch.load("./bert_evaluator.bin", map_location='cpu'))
 
-        self.model = AutoModel.from_pretrained("model/",from_tf=True)  
+        self.model = AutoModel.from_pretrained("model")  
         self.tokenizer = AutoTokenizer.from_pretrained("cl-tohoku/bert-base-japanese-whole-word-masking")
         #self.model.load_state_dict(torch.load("./bert_evaluator.bin", map_location='cpu'))
 
