@@ -8682,3 +8682,34 @@
 [2020-12-24T06:22:06.934+0000][92117][gc           ] GC(145) Pause Young (Allocation Failure) 331M->65M(990M) 7.748ms
 [2020-12-24T06:22:06.934+0000][92117][gc,cpu       ] GC(145) User=0.02s Sys=0.00s Real=0.01s
 [2020-12-24T06:22:06.934+0000][92117][safepoint    ] Safepoint "GenCollectForAllocation", Time since last: 235804515916 ns, Reaching safepoint: 303954 ns, At safepoint: 7928000 ns, Total: 8231954 ns
+[2020-12-24T06:23:22.107+0000][92117][safepoint    ] Safepoint "Cleanup", Time since last: 75170728241 ns, Reaching safepoint: 277882 ns, At safepoint: 22166 ns, Total: 300048 ns
+[2020-12-24T06:25:57.913+0000][92117][gc,start     ] GC(146) Pause Young (Allocation Failure)
+[2020-12-24T06:25:57.914+0000][92117][gc,task      ] GC(146) Using 4 workers of 4 for evacuation
+[2020-12-24T06:25:57.946+0000][92117][gc,age       ] GC(146) Desired survivor size 17432576 bytes, new threshold 6 (max threshold 6)
+[2020-12-24T06:25:57.946+0000][92117][gc,age       ] GC(146) Age table with threshold 6 (max threshold 6)
+[2020-12-24T06:25:57.946+0000][92117][gc,age       ] GC(146) - age   1:       7488 bytes,       7488 total
+[2020-12-24T06:25:57.946+0000][92117][gc,age       ] GC(146) - age   2:        264 bytes,       7752 total
+[2020-12-24T06:25:57.946+0000][92117][gc,age       ] GC(146) - age   4:        216 bytes,       7968 total
+[2020-12-24T06:25:57.946+0000][92117][gc,age       ] GC(146) - age   5:         32 bytes,       8000 total
+[2020-12-24T06:25:57.946+0000][92117][gc,heap      ] GC(146) ParNew: 272652K->10K(306688K)
+[2020-12-24T06:25:57.946+0000][92117][gc,heap      ] GC(146) CMS: 67316K->67316K(707840K)
+[2020-12-24T06:25:57.946+0000][92117][gc,metaspace ] GC(146) Metaspace: 80654K->80654K(1124352K)
+[2020-12-24T06:25:57.948+0000][92117][gc           ] GC(146) Pause Young (Allocation Failure) 332M->65M(990M) 35.450ms
+[2020-12-24T06:25:57.948+0000][92117][gc,cpu       ] GC(146) User=0.02s Sys=0.04s Real=0.03s
+[2020-12-24T06:25:57.948+0000][92117][safepoint    ] Safepoint "GenCollectForAllocation", Time since last: 155799621790 ns, Reaching safepoint: 1035304 ns, At safepoint: 35667809 ns, Total: 36703113 ns
+[2020-12-24T06:27:52.171+0000][92117][safepoint    ] Safepoint "Cleanup", Time since last: 114219357645 ns, Reaching safepoint: 276937 ns, At safepoint: 16291 ns, Total: 293228 ns
+[2020-12-24T06:28:00.187+0000][92117][safepoint    ] Safepoint "Cleanup", Time since last: 8014871389 ns, Reaching safepoint: 245125 ns, At safepoint: 43415 ns, Total: 288540 ns
+[2020-12-24T06:29:49.950+0000][92117][gc,start     ] GC(147) Pause Young (Allocation Failure)
+[2020-12-24T06:29:49.950+0000][92117][gc,task      ] GC(147) Using 4 workers of 4 for evacuation
+[2020-12-24T06:29:49.955+0000][92117][gc,age       ] GC(147) Desired survivor size 17432576 bytes, new threshold 6 (max threshold 6)
+[2020-12-24T06:29:49.955+0000][92117][gc,age       ] GC(147) Age table with threshold 6 (max threshold 6)
+[2020-12-24T06:29:49.955+0000][92117][gc,age       ] GC(147) - age   1:       6360 bytes,       6360 total
+[2020-12-24T06:29:49.955+0000][92117][gc,age       ] GC(147) - age   2:        152 bytes,       6512 total
+[2020-12-24T06:29:49.955+0000][92117][gc,age       ] GC(147) - age   3:         32 bytes,       6544 total
+[2020-12-24T06:29:49.955+0000][92117][gc,age       ] GC(147) - age   5:        216 bytes,       6760 total
+[2020-12-24T06:29:49.955+0000][92117][gc,heap      ] GC(147) ParNew: 272650K->10K(306688K)
+[2020-12-24T06:29:49.955+0000][92117][gc,heap      ] GC(147) CMS: 67316K->67316K(707840K)
+[2020-12-24T06:29:49.955+0000][92117][gc,metaspace ] GC(147) Metaspace: 80654K->80654K(1124352K)
+[2020-12-24T06:29:49.955+0000][92117][gc           ] GC(147) Pause Young (Allocation Failure) 331M->65M(990M) 5.392ms
+[2020-12-24T06:29:49.955+0000][92117][gc,cpu       ] GC(147) User=0.01s Sys=0.00s Real=0.00s
+[2020-12-24T06:29:49.955+0000][92117][safepoint    ] Safepoint "GenCollectForAllocation", Time since last: 109758954142 ns, Reaching safepoint: 797633 ns, At safepoint: 5505293 ns, Total: 6302926 ns
