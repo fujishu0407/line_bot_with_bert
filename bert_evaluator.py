@@ -9,7 +9,7 @@ class BertEvaluator:
     def __init__(self):
         self.tokenizer = BertTokenizer.from_pretrained("bert-base-multilingual-cased", do_lower_case=False)
         self.model = BertForSequenceClassification.from_pretrained("bert-base-multilingual-cased", num_labels=2)
-        self.model.load_state_dict(torch.load("./bert_evaluator.bin", map_location='cpu'))
+        #self.model.load_state_dict(torch.load("./bert_evaluator.bin", map_location='cpu'))
 
     def __convert_sequences_to_features(self, user_input, candidate):
         # トークンを格納するリスト
