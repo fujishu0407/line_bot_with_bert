@@ -1,7 +1,7 @@
 #./bin/elasticsearch -d -p pid実行後起動
 import sys
 from bert_evaluator import BertEvaluator
-#from telegram_bot import TelegramBot
+from telegram_bot import TelegramBot
 
 class BertEbdmSystem:
     def __init__(self):
@@ -18,6 +18,7 @@ class BertEbdmSystem:
 
         for r in self.__reply(input['utt']):
             score = self.evaluate(input['utt'], r)
+            score = sum(score)
             if score >= max_score:
                 max_score = score
                 result = r[1]
