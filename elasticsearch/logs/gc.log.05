@@ -8668,3 +8668,17 @@
 [2020-12-24T06:18:11.113+0000][92117][gc           ] GC(144) Pause Young (Allocation Failure) 332M->65M(990M) 30.093ms
 [2020-12-24T06:18:11.114+0000][92117][gc,cpu       ] GC(144) User=0.02s Sys=0.04s Real=0.03s
 [2020-12-24T06:18:11.114+0000][92117][safepoint    ] Safepoint "GenCollectForAllocation", Time since last: 231106277328 ns, Reaching safepoint: 1468050 ns, At safepoint: 30962989 ns, Total: 32431039 ns
+[2020-12-24T06:22:06.926+0000][92117][gc,start     ] GC(145) Pause Young (Allocation Failure)
+[2020-12-24T06:22:06.926+0000][92117][gc,task      ] GC(145) Using 4 workers of 4 for evacuation
+[2020-12-24T06:22:06.934+0000][92117][gc,age       ] GC(145) Desired survivor size 17432576 bytes, new threshold 6 (max threshold 6)
+[2020-12-24T06:22:06.934+0000][92117][gc,age       ] GC(145) Age table with threshold 6 (max threshold 6)
+[2020-12-24T06:22:06.934+0000][92117][gc,age       ] GC(145) - age   1:       7776 bytes,       7776 total
+[2020-12-24T06:22:06.934+0000][92117][gc,age       ] GC(145) - age   3:        216 bytes,       7992 total
+[2020-12-24T06:22:06.934+0000][92117][gc,age       ] GC(145) - age   4:        184 bytes,       8176 total
+[2020-12-24T06:22:06.934+0000][92117][gc,age       ] GC(145) - age   6:        104 bytes,       8280 total
+[2020-12-24T06:22:06.934+0000][92117][gc,heap      ] GC(145) ParNew: 272650K->12K(306688K)
+[2020-12-24T06:22:06.934+0000][92117][gc,heap      ] GC(145) CMS: 67316K->67316K(707840K)
+[2020-12-24T06:22:06.934+0000][92117][gc,metaspace ] GC(145) Metaspace: 80654K->80654K(1124352K)
+[2020-12-24T06:22:06.934+0000][92117][gc           ] GC(145) Pause Young (Allocation Failure) 331M->65M(990M) 7.748ms
+[2020-12-24T06:22:06.934+0000][92117][gc,cpu       ] GC(145) User=0.02s Sys=0.00s Real=0.01s
+[2020-12-24T06:22:06.934+0000][92117][safepoint    ] Safepoint "GenCollectForAllocation", Time since last: 235804515916 ns, Reaching safepoint: 303954 ns, At safepoint: 7928000 ns, Total: 8231954 ns
