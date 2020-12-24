@@ -11,7 +11,11 @@ from bert_ebdm_system import BertEbdmSystem
 
 app = Flask(__name__)
 
+YOUR_CHANNEL_ACCESS_TOKEN = "NcSKlH2/i1Gvv2eW38+VMRSSPuKgxY+vMtqUWcU5GzmpwWJYv6QiIuI+LtWLV2eIaSLiAv/egHlpnVM0ha3cDDUTHZeIqhzhqZiz8ve8FDlFYGB956+E9ZKUwdvXYc9oRJnKVfAF4cfxPHiLTl/+jwdB04t89/1O/w1cDnyilFU="
+YOUR_CHANNEL_SECRET = "3b6a26385dfd37f84997ed2394f6def8"
 
+line_bot_api = LineBotApi(YOUR_CHANNEL_ACCESS_TOKEN)
+handler = WebhookHandler(YOUR_CHANNEL_SECRET)
 
 @app.route("/callback", methods=['POST'])
 def callback():
@@ -30,24 +34,18 @@ def callback():
 
     return 'OK'
 
-@app.route("/init", methods=['POST'])
-def init_system():
-    subprocess.call(["elasticsearch/bin/elasticsearch", "-d", "-p", "pid"])
-    system = BertEbdmSystem()
-    #環境変数取得
-    YOUR_CHANNEL_ACCESS_TOKEN = "NcSKlH2/i1Gvv2eW38+VMRSSPuKgxY+vMtqUWcU5GzmpwWJYv6QiIuI+LtWLV2eIaSLiAv/egHlpnVM0ha3cDDUTHZeIqhzhqZiz8ve8FDlFYGB956+E9ZKUwdvXYc9oRJnKVfAF4cfxPHiLTl/+jwdB04t89/1O/w1cDnyilFU="
-    YOUR_CHANNEL_SECRET = "3b6a26385dfd37f84997ed2394f6def8"
-
-    line_bot_api = LineBotApi(YOUR_CHANNEL_ACCESS_TOKEN)
-    handler = WebhookHandler(YOUR_CHANNEL_SECRET)
-
-
 @handler.add(MessageEvent, message=TextMessage)
 def handle_message(event):
     output_message = system.reply(event.message.text)
     line_bot_api.reply_message(
         event.reply_token,
         TextSendMessage(text=output_message["utt"]))
+
+@app.route("/init", methods=['GET'])
+def init():
+    print("do init")
+    subprocess.call(["elasticsearch/bin/elasticsearch", "-d", "-p", "pid"])
+    system = BertEbdmSystem()
 
 
 if __name__ == "__main__":
